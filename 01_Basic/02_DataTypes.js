@@ -26,6 +26,6 @@ let isLoggedIn = false   // boolean
 
 // object
 
-console.log (typeof undefined)
+console.log (typeof undefined)  // undefined type is also undefined 
 
-console.log (typeof null)
+console.log (typeof null)  // null type is object
