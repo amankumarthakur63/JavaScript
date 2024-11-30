@@ -3,7 +3,7 @@
 // alert (3 + 3)  // we are using nodejs, not browser
 
 
-console.log (3 
+console.log(3
     +
     3
 )       // This is not a good practice, code readability should be high
@@ -26,6 +26,6 @@ let isLoggedIn = false   // boolean
 
 // object
 
-console.log (typeof undefined)  // undefined type is also undefined 
+console.log(typeof undefined)  // undefined type is also undefined 
 
-console.log (typeof null)  // null type is object
+console.log(typeof null)  // null type is object
