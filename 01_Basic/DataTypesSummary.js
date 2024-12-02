@@ -43,3 +43,29 @@ console.log(typeof outsideTemp)   // object
 console.log(typeof userEmail)     // undefined
 console.log(typeof id)            // symbol
 console.log(typeof anotherId)     // symbol
+
+
+// ***************************************************
+
+// Satck (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "amankumar32"
+
+let anothername = myYoutubename
+
+anothername = "codewithaman32"
+
+console.log(myYoutubename);
+console.log (anothername)
+
+
+let userOne = {
+    email : "amankumar@gamil.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "aman@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
