@@ -15,11 +15,11 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.name)
-// console.log(JsUser.email)
-// console.log(JsUser["email"]);
-// console.log(JsUser["full name"]);
-// console.log(JsUser[mySym]);
+console.log(JsUser.name)
+console.log(JsUser.email)
+console.log(JsUser["email"]);
+console.log(JsUser["full name"]);
+console.log(JsUser[mySym]);
 
 JsUser.email = "aman@chatgpt.com"
 // Object.freeze(JsUser)
@@ -39,3 +39,19 @@ console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
 
 
+// Output
+
+// {
+//     name: 'Aman',
+//     'full name': 'Aman Kumar Thakur Ji',
+//     age: 14,
+//     location: 'Jalandhar',
+//     email: 'aman@microsoft.com',
+//     isLoggedIn: false,
+//     lastLoginDays: [ 'Monday', 'Saturday' ],
+//     [Symbol(Key1)]: 'mykey1'
+//   }
+//   Hello JsUser
+//   undefined
+//   Hello JsUser, Aman
+//   undefined
