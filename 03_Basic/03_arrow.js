@@ -60,5 +60,6 @@ const chai =  () => {
 
 const addTwo = (num1, num2) =>  ({username: "aman"})
 
-console.log(addTwo (3, 4));
+
+// console.log(addTwo (3, 4));
 
